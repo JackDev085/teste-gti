@@ -1,0 +1,692 @@
+[
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "create_db_and_tables",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "create_db_and_tables",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "isExtraImport": true,
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.order",
+        "description": "routes.order",
+        "isExtraImport": true,
+        "detail": "routes.order",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes.order",
+        "description": "routes.order",
+        "isExtraImport": true,
+        "detail": "routes.order",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Relationship",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRead",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderUpdateStatus",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "PaginatedOrders",
+        "importPath": "models.order",
+        "description": "models.order",
+        "isExtraImport": true,
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "repository.order_repository",
+        "description": "repository.order_repository",
+        "isExtraImport": true,
+        "detail": "repository.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api.main",
+        "description": "api.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Gerenciamento de Pedidos\",\n    description=(\n        \"API REST para gerenciamento de pedidos. \"\n        \"Permite criar, listar, buscar, atualizar status e excluir pedidos.\"\n    ),\n    version=\"1.0.0\",\n    lifespan=lifespan\n)\n# CORS",
+        "detail": "api.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_db_and_tables",
+        "kind": 2,
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "peekOfCode": "def create_db_and_tables(engine):\n    SQLModel.metadata.create_all(engine)\ndef get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "peekOfCode": "def get_session():\n    with Session(engine) as session:\n        yield session",
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "PROD",
+        "kind": 5,
+        "importPath": "db.connection",
+        "description": "db.connection",
+        "peekOfCode": "PROD = os.getenv(\"PROD\")\nif PROD == \"False\":\n    DATABASE_URL = \"sqlite:///./database.db\"\n    engine = create_engine(DATABASE_URL)\n    print(\"desenvolvimento\")\nelse:\n    print(\"producao\")\n    DATABASE_URL = os.getenv(\"POSTGRES_URL_FASTAPI\")\n    engine = create_engine(DATABASE_URL, echo=False)\ndef create_db_and_tables(engine):",
+        "detail": "db.connection",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderItem(SQLModel, table=True):\n    __tablename__ = \"order_items\"\n    id: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True)\n    order_id: uuid.UUID = Field(foreign_key=\"orders.id\", nullable=False)\n    name: str = Field(max_length=150)\n    price: float = Field(ge=0)\n    # Relacionamento inverso\n    order: Optional[\"Order\"] = Relationship(back_populates=\"items\")\nclass Order(SQLModel, table=True):\n    \"\"\"Pedido de um client.\"\"\"",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class Order(SQLModel, table=True):\n    \"\"\"Pedido de um client.\"\"\"\n    __tablename__ = \"orders\"\n    id: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True)\n    name_client: str = Field(max_length=200)\n    value: float = Field(default=0, ge=0)\n    status: str = Field(default=\"pendente\")\n    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    updated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    # Relacionamento com items",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemCreate",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderItemCreate(SQLModel):\n    \"\"\"Schema para criar um item do pedido.\"\"\"\n    name: str = Field(max_length=150)\n    price: float = Field(ge=0)\nclass OrderItemRead(SQLModel):\n    \"\"\"Schema de leitura de um item do pedido.\"\"\"\n    id: uuid.UUID\n    name: str\n    price: float\nclass OrderCreate(SQLModel):",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemRead",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderItemRead(SQLModel):\n    \"\"\"Schema de leitura de um item do pedido.\"\"\"\n    id: uuid.UUID\n    name: str\n    price: float\nclass OrderCreate(SQLModel):\n    \"\"\"Schema para criar um pedido.\"\"\"\n    name_client: str = Field(max_length=200)\n    items: list[OrderItemCreate]\nclass OrderRead(SQLModel):",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderCreate(SQLModel):\n    \"\"\"Schema para criar um pedido.\"\"\"\n    name_client: str = Field(max_length=200)\n    items: list[OrderItemCreate]\nclass OrderRead(SQLModel):\n    \"\"\"Schema de leitura de um pedido.\"\"\"\n    id: uuid.UUID\n    name_client: str\n    value: float\n    status: str",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRead",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderRead(SQLModel):\n    \"\"\"Schema de leitura de um pedido.\"\"\"\n    id: uuid.UUID\n    name_client: str\n    value: float\n    status: str\n    created_at: datetime\n    updated_at: datetime\n    items: list[OrderItemRead]\nclass OrderUpdateStatus(SQLModel):",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderUpdateStatus",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class OrderUpdateStatus(SQLModel):\n    \"\"\"Schema para atualizar o status de um pedido.\"\"\"\n    status: str\nclass PaginatedOrders(SQLModel):\n    \"\"\"Resposta paginada de orders.\"\"\"\n    total: int\n    skip: int\n    limit: int\n    orders: list[OrderRead]",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "PaginatedOrders",
+        "kind": 6,
+        "importPath": "models.order",
+        "description": "models.order",
+        "peekOfCode": "class PaginatedOrders(SQLModel):\n    \"\"\"Resposta paginada de orders.\"\"\"\n    total: int\n    skip: int\n    limit: int\n    orders: list[OrderRead]",
+        "detail": "models.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "kind": 6,
+        "importPath": "repository.order_repository",
+        "description": "repository.order_repository",
+        "peekOfCode": "class OrderRepository:\n    def __init__(self, session: Session):\n        self.session = session\n    def create_order(self, data: OrderCreate) -> Order:\n        \"\"\"Cria um novo pedido com seus itens e calcula o valor total.\"\"\"\n        valor_total = sum(\n            item.price for item in data.items\n        )\n        order = Order(\n            name_client=data.name_client,",
+        "detail": "repository.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routes.order",
+        "description": "routes.order",
+        "peekOfCode": "router = APIRouter(prefix=\"/pedidos\", tags=[\"Pedidos\"])\n@router.post(\"/\", response_model=OrderRead, status_code=201, summary=\"Criar um novo pedido\")\nasync def criar_pedido(data: OrderCreate, session: Session = Depends(get_session)):\n    \"\"\"Cria um novo pedido. O valor total é calculado automaticamente a partir dos itens.\"\"\"\n    order_repo = OrderRepository(session)\n    order = order_repo.create_order(data)\n    return order\n@router.get(\"/\", response_model=PaginatedOrders, summary=\"Listar todos os pedidos\")\nasync def listar_pedidos(\n    skip: int = Query(0, ge=0, description=\"Registros a pular\"),",
+        "detail": "routes.order",
+        "documentation": {}
+    },
+    {
+        "label": "override_get_session",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def override_get_session():\n    with TestSession() as session:\n        yield session\napp.dependency_overrides[get_session] = override_get_session\n@pytest.fixture(autouse=True)\ndef setup_db():\n    SQLModel.metadata.create_all(test_engine)\n    yield\n    SQLModel.metadata.drop_all(test_engine)\n@pytest.fixture",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "setup_db",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def setup_db():\n    SQLModel.metadata.create_all(test_engine)\n    yield\n    SQLModel.metadata.drop_all(test_engine)\n@pytest.fixture\ndef client():\n    return TestClient(app)\nPEDIDO_PAYLOAD = {\n    \"name_client\": \"João da Silva\",\n    \"items\": [",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def client():\n    return TestClient(app)\nPEDIDO_PAYLOAD = {\n    \"name_client\": \"João da Silva\",\n    \"items\": [\n        {\"name\": \"Camiseta\", \"price\": 49.90},\n        {\"name\": \"Bermuda\", \"price\": 79.90},\n    ],\n}\ndef test_criar_pedido(client: TestClient):",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_criar_pedido",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_criar_pedido(client: TestClient):\n    response = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    assert response.status_code == 201\n    data = response.json()\n    assert data[\"name_client\"] == \"João da Silva\"\n    assert data[\"status\"] == \"pendente\"\n    assert data[\"value\"] == pytest.approx(179.70, abs=0.01)\n    assert len(data[\"items\"]) == 2\ndef test_listar_pedidos(client: TestClient):\n    # Cria 2 pedidos",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_listar_pedidos",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_listar_pedidos(client: TestClient):\n    # Cria 2 pedidos\n    client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    response = client.get(\"/pedidos/\")\n    assert response.status_code == 200\n    data = response.json()\n    assert data[\"total\"] == 2\n    assert len(data[\"orders\"]) == 2\ndef test_buscar_pedido_por_id(client: TestClient):",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_buscar_pedido_por_id",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_buscar_pedido_por_id(client: TestClient):\n    create_resp = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    pedido_id = create_resp.json()[\"id\"]\n    response = client.get(f\"/pedidos/{pedido_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"id\"] == pedido_id\ndef test_buscar_pedido_inexistente(client: TestClient):\n    fake_id = \"00000000-0000-0000-0000-000000000000\"\n    response = client.get(f\"/pedidos/{fake_id}\")\n    assert response.status_code == 404",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_buscar_pedido_inexistente",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_buscar_pedido_inexistente(client: TestClient):\n    fake_id = \"00000000-0000-0000-0000-000000000000\"\n    response = client.get(f\"/pedidos/{fake_id}\")\n    assert response.status_code == 404\ndef test_atualizar_status(client: TestClient):\n    create_resp = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    pedido_id = create_resp.json()[\"id\"]\n    response = client.patch(\n        f\"/pedidos/{pedido_id}/status\", json={\"status\": \"concluido\"}\n    )",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_atualizar_status",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_atualizar_status(client: TestClient):\n    create_resp = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    pedido_id = create_resp.json()[\"id\"]\n    response = client.patch(\n        f\"/pedidos/{pedido_id}/status\", json={\"status\": \"concluido\"}\n    )\n    assert response.status_code == 200\n    assert response.json()[\"status\"] == \"concluido\"\ndef test_excluir_pedido(client: TestClient):\n    create_resp = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_excluir_pedido",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_excluir_pedido(client: TestClient):\n    create_resp = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    pedido_id = create_resp.json()[\"id\"]\n    response = client.delete(f\"/pedidos/{pedido_id}\")\n    assert response.status_code == 204\n    # Verifica se foi deletado\n    response = client.get(f\"/pedidos/{pedido_id}\")\n    assert response.status_code == 404\ndef test_paginacao(client: TestClient):\n    # Cria 5 pedidos",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_paginacao",
+        "kind": 2,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "def test_paginacao(client: TestClient):\n    # Cria 5 pedidos\n    for _ in range(5):\n        client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    # Pega os 2 primeiros\n    response = client.get(\"/pedidos/?skip=0&limit=2\")\n    data = response.json()\n    assert data[\"total\"] == 5\n    assert len(data[\"orders\"]) == 2\n    assert data[\"skip\"] == 0",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_DATABASE_URL",
+        "kind": 5,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "TEST_DATABASE_URL = \"sqlite:///./test.db\"\ntest_engine = create_engine(TEST_DATABASE_URL, echo=False, connect_args={\"check_same_thread\": False})\nTestSession = sessionmaker(test_engine, class_=Session, expire_on_commit=False)\ndef override_get_session():\n    with TestSession() as session:\n        yield session\napp.dependency_overrides[get_session] = override_get_session\n@pytest.fixture(autouse=True)\ndef setup_db():\n    SQLModel.metadata.create_all(test_engine)",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "test_engine",
+        "kind": 5,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "test_engine = create_engine(TEST_DATABASE_URL, echo=False, connect_args={\"check_same_thread\": False})\nTestSession = sessionmaker(test_engine, class_=Session, expire_on_commit=False)\ndef override_get_session():\n    with TestSession() as session:\n        yield session\napp.dependency_overrides[get_session] = override_get_session\n@pytest.fixture(autouse=True)\ndef setup_db():\n    SQLModel.metadata.create_all(test_engine)\n    yield",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "TestSession",
+        "kind": 5,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "TestSession = sessionmaker(test_engine, class_=Session, expire_on_commit=False)\ndef override_get_session():\n    with TestSession() as session:\n        yield session\napp.dependency_overrides[get_session] = override_get_session\n@pytest.fixture(autouse=True)\ndef setup_db():\n    SQLModel.metadata.create_all(test_engine)\n    yield\n    SQLModel.metadata.drop_all(test_engine)",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "app.dependency_overrides[get_session]",
+        "kind": 5,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "app.dependency_overrides[get_session] = override_get_session\n@pytest.fixture(autouse=True)\ndef setup_db():\n    SQLModel.metadata.create_all(test_engine)\n    yield\n    SQLModel.metadata.drop_all(test_engine)\n@pytest.fixture\ndef client():\n    return TestClient(app)\nPEDIDO_PAYLOAD = {",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "PEDIDO_PAYLOAD",
+        "kind": 5,
+        "importPath": "tests.test_orders",
+        "description": "tests.test_orders",
+        "peekOfCode": "PEDIDO_PAYLOAD = {\n    \"name_client\": \"João da Silva\",\n    \"items\": [\n        {\"name\": \"Camiseta\", \"price\": 49.90},\n        {\"name\": \"Bermuda\", \"price\": 79.90},\n    ],\n}\ndef test_criar_pedido(client: TestClient):\n    response = client.post(\"/pedidos/\", json=PEDIDO_PAYLOAD)\n    assert response.status_code == 201",
+        "detail": "tests.test_orders",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Gerenciamento de Pedidos\",\n    description=(\n        \"API REST para gerenciamento de pedidos. \"\n        \"Permite criar, listar, buscar, atualizar status e excluir pedidos.\"\n    ),\n    version=\"1.0.0\",\n    lifespan=lifespan\n)\n# CORS",
+        "detail": "main",
+        "documentation": {}
+    }
+]

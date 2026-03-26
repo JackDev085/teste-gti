@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sistema de gerenciamento de pedidos - AlleyOop. Crie, acompanhe e gerencie seus pedidos de forma simples e eficiente.">
+    <title>AlleyOop - Gerenciamento de Pedidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo">
+                <span class="logo-icon">🏀</span>
+                <span class="logo-text">Alley<span class="accent">Oop</span></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="nav-link active" data-section="hero">Início</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">Sobre</a></li>
+                <li><a href="#news" class="nav-link" data-section="news">Notícias</a></li>
+                <li><a href="#orders" class="nav-link" data-section="orders">Pedidos</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">🚀 Sistema de Pedidos v1.0</span>
+            <h1 class="hero-title">Gerencie seus<br><span class="gradient-text">pedidos com facilidade</span></h1>
+            <p class="hero-subtitle">Plataforma moderna para criar, acompanhar e gerenciar todos os seus pedidos em um
+                único lugar. Simples, rápido e eficiente.</p>
+            <div class="hero-actions">
+                <a href="#orders" class="btn btn-primary">Gerenciar Pedidos</a>
+                <a href="#about" class="btn btn-outline">Saiba Mais</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="stat-total">0</span>
+                    <span class="stat-label">Pedidos</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-pending">0</span>
+                    <span class="stat-label">Pendentes</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-done">0</span>
+                    <span class="stat-label">Concluídos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossa Empresa</span>
+                <h2 class="section-title">Sobre a <span class="gradient-text">AlleyOop</span></h2>
+                <p class="section-desc">Somos uma empresa focada em soluções tecnológicas para o comércio, conectando
+                    clientes e negócios de forma inteligente.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">⚡</div>
+                    <h3>Agilidade</h3>
+                    <p>Processamento rápido de pedidos com tecnologia de ponta para garantir a melhor experiência.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🔒</div>
+                    <h3>Segurança</h3>
+                    <p>Seus dados protegidos com as melhores práticas de segurança e infraestrutura confiável.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">📊</div>
+                    <h3>Organização</h3>
+                    <p>Controle total dos seus pedidos com interface intuitiva, relatórios e histórico completo.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🤝</div>
+                    <h3>Suporte</h3>
+                    <p>Equipe dedicada para ajudar você em cada etapa, do cadastro à conclusão do pedido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWS ===== -->
+    <section class="section section-dark" id="news">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Atualizações</span>
+                <h2 class="section-title">Últimas <span class="gradient-text">Notícias</span></h2>
+                <p class="section-desc">Fique por dentro das novidades da plataforma e do nosso ecossistema.</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card news-featured">
+                    <div class="news-badge">Novo</div>
+                    <span class="news-date">25 Mar 2026</span>
+                    <h3>Lançamento do Sistema de Pedidos v1.0</h3>
+                    <p>Nossa nova plataforma de gerenciamento de pedidos está no ar! Com interface moderna e API
+                        robusta, agora você pode criar e acompanhar todos os seus pedidos em tempo real.</p>
+                    <span class="news-tag">Produto</span>
+                </article>
+                <article class="news-card">
+                    <span class="news-date">20 Mar 2026</span>
+                    <h3>API REST com documentação Swagger</h3>
+                    <p>Toda a API é documentada automaticamente via Swagger UI. Acesse <code>/docs</code> para testar os
+                        endpoints diretamente no navegador.</p>
+                    <span class="news-tag">Técnico</span>
+                </article>
+                <article class="news-card">
+                    <span class="news-date">15 Mar 2026</span>
+                    <h3>Suporte a paginação e filtros</h3>
+                    <p>Adicionamos paginação inteligente na listagem de pedidos, permitindo navegar grandes volumes de
+                        dados de forma eficiente.</p>
+                    <span class="news-tag">Feature</span>
+                </article>
+                <article class="news-card">
+                    <span class="news-date">10 Mar 2026</span>
+                    <h3>Stack tecnológica: FastAPI + PostgreSQL</h3>
+                    <p>Escolhemos FastAPI pela alta performance e tipagem, SQLModel para modelos elegantes e PostgreSQL
+                        para robustez e confiabilidade.</p>
+                    <span class="news-tag">Arquitetura</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ORDERS ===== -->
+    <section class="section" id="orders">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Gerenciamento</span>
+                <h2 class="section-title">Seus <span class="gradient-text">Pedidos</span></h2>
+                <p class="section-desc">Crie, visualize e gerencie todos os pedidos da plataforma.</p>
+            </div>
+
+            <!-- Formulário de Novo Pedido -->
+            <div class="order-form-wrapper" id="order-form-wrapper">
+                <div class="form-header">
+                    <h3>📝 Novo Pedido</h3>
+                    <button class="btn-icon" id="toggle-form" aria-label="Expandir formulário">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M7 10l5 5 5-5z" />
+                        </svg>
+                    </button>
+                </div>
+                <form id="order-form" class="order-form collapsed">
+                    <div class="form-group">
+                        <label for="nome_cliente">Nome do Cliente</label>
+                        <input type="text" id="nome_cliente" placeholder="Ex: João da Silva" required>
+                    </div>
+
+                    <div class="items-section">
+                        <div class="items-header">
+                            <label>Itens do Pedido</label>
+                            <button type="button" class="btn btn-sm" id="add-item">+ Adicionar Item</button>
+                        </div>
+                        <div id="items-container">
+                            <div class="item-row">
+                                <input type="text" placeholder="Nome do item" class="item-nome" required>
+                                <input type="number" placeholder="Preço (R$)" class="item-preco" min="0" step="0.01"
+                                    required>
+                                <button type="button" class="btn-remove-item" title="Remover item">✕</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-total">
+                        <span>Total estimado:</span>
+                        <span class="total-value" id="total-value">R$ 0,00</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Criar Pedido</button>
+                </form>
+            </div>
+
+            <!-- Tabela de Pedidos -->
+            <div class="orders-table-wrapper">
+                <div class="table-header">
+                    <h3>📋 Lista de Pedidos</h3>
+                    <button class="btn btn-sm btn-outline" id="refresh-orders">↻ Atualizar</button>
+                </div>
+                <div class="table-responsive">
+                    <table class="orders-table" id="orders-table">
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Itens</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th>Criado em</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orders-tbody">
+                            <tr class="empty-row">
+                                <td colspan="6">
+                                    <div class="empty-state">
+                                        <span class="empty-icon">📦</span>
+                                        <p>Nenhum pedido encontrado</p>
+                                        <small>Crie um novo pedido usando o formulário acima</small>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Paginação -->
+                <div class="pagination" id="pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODAL DETALHES ===== -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="order-modal">
+            <div class="modal-header">
+                <h3>Detalhes do Pedido</h3>
+                <button class="btn-icon modal-close" id="modal-close" aria-label="Fechar">✕</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- preenchido via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🏀</span>
+                    <span class="logo-text">Alley<span class="accent">Oop</span></span>
+                    <p>Gerenciamento de pedidos moderno e eficiente.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Stack Tecnológica</h4>
+                    <ul>
+                        <li>FastAPI + Python</li>
+                        <li>SQLModel + PostgreSQL</li>
+                        <li>HTML / CSS / JavaScript</li>
+                        <li>Swagger / OpenAPI</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="/docs" target="_blank">API Docs (Swagger)</a></li>
+                        <li><a href="/redoc" target="_blank">API Docs (ReDoc)</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#orders">Pedidos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AlleyOop. Projeto acadêmico — GTI / UFC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
