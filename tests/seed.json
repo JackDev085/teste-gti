@@ -1,0 +1,25 @@
+{
+  "total_orders": 120,
+  "clients": [
+    "Alice Lima",
+    "Bruno Souza",
+    "Carla Mendes",
+    "Diego Rocha",
+    "Elisa Costa",
+    "Felipe Nunes",
+    "Gabriela Alves",
+    "Henrique Prado",
+    "Isabela Castro",
+    "Joao Pires"
+  ],
+  "catalog": [
+    { "name": "Camiseta Basica", "price": 39.9 },
+    { "name": "Calca Jeans", "price": 129.9 },
+    { "name": "Tenis Casual", "price": 199.5 },
+    { "name": "Jaqueta Corta-Vento", "price": 249.0 },
+    { "name": "Meia Esportiva", "price": 19.9 },
+    { "name": "Bone", "price": 49.0 },
+    { "name": "Mochila", "price": 159.9 },
+    { "name": "Relogio Digital", "price": 299.9 }
+  ]
+}

@@ -13,7 +13,6 @@ class OrderItem(SQLModel, table=True):
     name: str = Field(max_length=150)
     price: float = Field(ge=0)
 
-    # Relacionamento inverso
     order: Optional["Order"] = Relationship(back_populates="items")
 
 
@@ -28,7 +27,6 @@ class Order(SQLModel, table=True):
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     updated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
-    # Relacionamento com items
     items: list[OrderItem] = Relationship(
         back_populates="order",
         sa_relationship_kwargs={"cascade": "all, delete-orphan"})

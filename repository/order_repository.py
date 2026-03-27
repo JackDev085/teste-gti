@@ -44,8 +44,6 @@ class OrderRepository:
         self, skip: int = 0, limit: int = 10
     ) -> tuple[list[Order], int]:
         """Retorna pedidos paginados e o total de registros."""
-        # Total
-        
         orders = self.session.exec(select(Order).offset(skip).limit(limit)).all()
         print(orders)
         total = len(orders)
